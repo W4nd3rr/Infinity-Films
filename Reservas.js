@@ -3,11 +3,12 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Reservas_atlas_1", frames: [[1202,1866,491,76],[1082,991,489,129],[1573,991,395,106],[1588,1650,372,106],[1479,1434,393,106],[1597,1542,384,106],[1576,1758,244,106],[1202,1650,384,106],[1202,1758,372,106],[1202,1542,393,106],[0,1602,599,290],[601,1602,599,290],[1082,1122,599,76],[1082,1200,599,76],[1082,1278,599,76],[1082,1356,599,76],[0,1894,599,147],[601,1894,599,147],[1082,770,599,219],[1695,1866,244,106],[1082,1434,395,106],[1202,1974,681,30],[1082,0,768,768],[0,0,1080,1600]]},
-		{name:"Reservas_atlas_2", frames: [[0,0,1080,1600]]},
+		{name:"Reservas_atlas_1", frames: [[0,540,491,76],[601,0,395,106],[0,372,372,106],[0,156,393,106],[0,264,384,106],[772,324,244,106],[386,324,384,106],[374,432,372,106],[395,216,393,106],[0,0,599,76],[0,78,599,76],[748,432,244,106],[601,108,395,106],[0,618,681,30]]},
+		{name:"Reservas_atlas_2", frames: [[1462,1748,489,129],[0,1602,1461,71],[0,1748,1460,71],[0,1675,1461,71],[0,1821,1460,71],[1082,770,599,290],[1082,1062,599,290],[1202,1894,599,76],[1202,1972,599,76],[0,1894,599,147],[601,1894,599,147],[1082,1354,599,219],[1082,0,768,768],[0,0,1080,1600]]},
 		{name:"Reservas_atlas_3", frames: [[0,0,1080,1600]]},
 		{name:"Reservas_atlas_4", frames: [[0,0,1080,1600]]},
-		{name:"Reservas_atlas_5", frames: [[0,0,1080,1600]]}
+		{name:"Reservas_atlas_5", frames: [[0,0,1080,1600]]},
+		{name:"Reservas_atlas_6", frames: [[0,0,1080,1600]]}
 ];
 
 
@@ -39,148 +40,176 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_110 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["Reservas_atlas_2"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_109 = function() {
 	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_108 = function() {
 	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(3);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_107 = function() {
 	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_106 = function() {
 	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(5);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_105 = function() {
 	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(6);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_104 = function() {
 	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(7);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_103 = function() {
 	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(8);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_102 = function() {
 	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(9);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_135 = function() {
+	this.initialize(ss["Reservas_atlas_2"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_134 = function() {
+	this.initialize(ss["Reservas_atlas_2"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_133 = function() {
+	this.initialize(ss["Reservas_atlas_2"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_132 = function() {
+	this.initialize(ss["Reservas_atlas_2"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_101 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(10);
+	this.initialize(ss["Reservas_atlas_2"]);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_100 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(11);
+	this.initialize(ss["Reservas_atlas_2"]);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_99 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(12);
+	this.initialize(ss["Reservas_atlas_2"]);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_98 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(13);
+	this.initialize(ss["Reservas_atlas_2"]);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_97 = function() {
 	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(14);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_96 = function() {
 	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(15);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_95 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(16);
+	this.initialize(ss["Reservas_atlas_2"]);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_94 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(17);
+	this.initialize(ss["Reservas_atlas_2"]);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_93 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(18);
+	this.initialize(ss["Reservas_atlas_2"]);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_92 = function() {
 	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(19);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_91 = function() {
 	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(20);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_90 = function() {
 	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(21);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -192,43 +221,43 @@ p.nominalBounds = new cjs.Rectangle(0,0,3839,165);
 
 
 (lib.Gemini_Generated_Image_qyn9k0qyn9k0qyn9 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(22);
+	this.initialize(ss["Reservas_atlas_2"]);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits2 = function() {
-	this.initialize(ss["Reservas_atlas_5"]);
+	this.initialize(ss["Reservas_atlas_6"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits3 = function() {
-	this.initialize(ss["Reservas_atlas_4"]);
+	this.initialize(ss["Reservas_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits4 = function() {
-	this.initialize(ss["Reservas_atlas_3"]);
+	this.initialize(ss["Reservas_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits5 = function() {
-	this.initialize(ss["Reservas_atlas_2"]);
+	this.initialize(ss["Reservas_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits6 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(23);
+	this.initialize(ss["Reservas_atlas_2"]);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -372,6 +401,58 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(0,0,122,53);
+
+
+(lib.Interpolación16 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Capa_1
+	this.instance = new lib.CachedBmp_135();
+	this.instance.setTransform(-365.3,-35,0.5,0.5);
+
+	this.instance_1 = new lib.CachedBmp_134();
+	this.instance_1.setTransform(-365.3,-0.3,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-365.3,-35,730.5,70.2);
+
+
+(lib.Interpolación15 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Capa_1
+	this.instance = new lib.CachedBmp_133();
+	this.instance.setTransform(-365.3,-35,0.5,0.5);
+
+	this.instance_1 = new lib.CachedBmp_132();
+	this.instance_1.setTransform(-365.3,-0.3,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-365.3,-35,730.5,70.2);
 
 
 (lib.Interpolación13 = function(mode,startPosition,loop,reversed) {
@@ -801,6 +882,41 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(0,0,197.5,53);
+
+
+(lib.anunciopublicitario = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// MergedLayer_1
+	this.instance = new lib.Interpolación15("synched",0);
+	this.instance.setTransform(2287.2,35);
+
+	this.instance_1 = new lib.Interpolación16("synched",0);
+	this.instance_1.setTransform(-365.3,35);
+	this.instance_1._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true,x:-365.3},149).wait(151));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({_off:false},149).wait(1).to({x:2287.2},0).to({x:-365.3},149).wait(1));
+
+	// Capa_4
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#999999").s().p("EiWJAFeIAAq7MEsSAAAIAAK7g");
+	this.shape.setTransform(960.95,35.025);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(300));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-730.6,0,3383,70.2);
 
 
 (lib.Símbolo17 = function(mode,startPosition,loop,reversed) {
@@ -1251,7 +1367,7 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(15));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(300));
 
 	// NAVBAR
 	this.contacto = new lib.CONTACTO();
@@ -1290,7 +1406,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_1.graphics.f("#000000").s().p("EiWJARHMAAAgiNMEsTAAAMAAAAiNg");
 	this.shape_1.setTransform(963.4,110.225);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.instance},{t:this.inicio},{t:this.servicios},{t:this.nosotros},{t:this.reservas},{t:this.contacto}]}).wait(15));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.instance},{t:this.inicio},{t:this.servicios},{t:this.nosotros},{t:this.reservas},{t:this.contacto}]}).wait(300));
 
 	// reservas
 	this.instance_1 = new lib.Símbolo11();
@@ -1319,19 +1435,29 @@ if (reversed == null) { reversed = false; }
 	this.instance_7 = new lib.CachedBmp_89();
 	this.instance_7.setTransform(2.45,235.6,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1}]}).wait(15));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1}]}).wait(300));
+
+	// Capa_1
+	this.instance_8 = new lib.anunciopublicitario("synched",0);
+	this.instance_8.setTransform(961,1044.95,1,1,0,0,0,961,35);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f().s("#000000").ss(1,1,1).p("EiWJgFdMEsTAAAIAAK7MksTAAAg");
+	this.shape_2.setTransform(960.95,1044.975);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2},{t:this.instance_8}]}).wait(300));
 
 	// Fondo
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#131313").s().p("EiWJBDOMAAAiGaMEsSAAAMAAACGag");
-	this.shape_2.setTransform(960.95,649.85);
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#131313").s().p("EiWJBDOMAAAiGaMEsSAAAMAAACGag");
+	this.shape_3.setTransform(960.95,649.85);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_2).wait(15));
+	this.timeline.addTween(cjs.Tween.get(this.shape_3).wait(300));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(960,539.8,965.4000000000001,540.2);
+p.nominalBounds = new cjs.Rectangle(229.4,539.8,2423,541.2);
 // library properties:
 lib.properties = {
 	id: 'E8F86A9D21B4B54093AB783D8B9ED6B3',
@@ -1341,12 +1467,13 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_89.png?1778283213300", id:"CachedBmp_89"},
-		{src:"images/Reservas_atlas_1.png?1778283213261", id:"Reservas_atlas_1"},
-		{src:"images/Reservas_atlas_2.png?1778283213261", id:"Reservas_atlas_2"},
-		{src:"images/Reservas_atlas_3.png?1778283213261", id:"Reservas_atlas_3"},
-		{src:"images/Reservas_atlas_4.png?1778283213261", id:"Reservas_atlas_4"},
-		{src:"images/Reservas_atlas_5.png?1778283213261", id:"Reservas_atlas_5"}
+		{src:"images/CachedBmp_89.png?1778284839025", id:"CachedBmp_89"},
+		{src:"images/Reservas_atlas_1.png?1778284838965", id:"Reservas_atlas_1"},
+		{src:"images/Reservas_atlas_2.png?1778284838965", id:"Reservas_atlas_2"},
+		{src:"images/Reservas_atlas_3.png?1778284838965", id:"Reservas_atlas_3"},
+		{src:"images/Reservas_atlas_4.png?1778284838965", id:"Reservas_atlas_4"},
+		{src:"images/Reservas_atlas_5.png?1778284838965", id:"Reservas_atlas_5"},
+		{src:"images/Reservas_atlas_6.png?1778284838965", id:"Reservas_atlas_6"}
 	],
 	preloads: []
 };
