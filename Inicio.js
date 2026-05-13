@@ -3,8 +3,8 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Inicio_atlas_1", frames: [[1166,770,395,106],[1166,1094,372,106],[1166,878,393,106],[1166,986,384,106],[0,1178,244,106],[1552,986,384,106],[1540,1094,372,106],[1561,878,393,106],[246,1178,244,106],[1563,770,395,106],[1202,0,768,768],[0,676,1164,500],[0,0,1200,674]]},
-		{name:"Inicio_atlas_2", frames: [[0,822,1200,675],[0,0,1920,820]]}
+		{name:"Inicio_atlas_1", frames: [[0,822,1200,675],[0,0,1920,820]]},
+		{name:"Inicio_atlas_2", frames: [[1166,770,395,106],[1166,1094,372,106],[1166,878,393,106],[1166,986,384,106],[0,1178,244,106],[1552,986,384,106],[1540,1094,372,106],[1561,878,393,106],[246,1178,244,106],[1563,770,395,106],[1202,0,768,768],[0,676,1164,500],[0,0,1200,674]]}
 ];
 
 
@@ -29,84 +29,84 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_10 = function() {
-	this.initialize(ss["Inicio_atlas_1"]);
+	this.initialize(ss["Inicio_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_9 = function() {
-	this.initialize(ss["Inicio_atlas_1"]);
+	this.initialize(ss["Inicio_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_8 = function() {
-	this.initialize(ss["Inicio_atlas_1"]);
+	this.initialize(ss["Inicio_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_7 = function() {
-	this.initialize(ss["Inicio_atlas_1"]);
+	this.initialize(ss["Inicio_atlas_2"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_6 = function() {
-	this.initialize(ss["Inicio_atlas_1"]);
+	this.initialize(ss["Inicio_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_5 = function() {
-	this.initialize(ss["Inicio_atlas_1"]);
+	this.initialize(ss["Inicio_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
-	this.initialize(ss["Inicio_atlas_1"]);
+	this.initialize(ss["Inicio_atlas_2"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["Inicio_atlas_1"]);
+	this.initialize(ss["Inicio_atlas_2"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["Inicio_atlas_1"]);
+	this.initialize(ss["Inicio_atlas_2"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["Inicio_atlas_1"]);
+	this.initialize(ss["Inicio_atlas_2"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Gemini_Generated_Image_qyn9k0qyn9k0qyn9 = function() {
-	this.initialize(ss["Inicio_atlas_1"]);
+	this.initialize(ss["Inicio_atlas_2"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits10 = function() {
-	this.initialize(ss["Inicio_atlas_2"]);
+	this.initialize(ss["Inicio_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -119,21 +119,21 @@ p.nominalBounds = new cjs.Rectangle(0,0,3840,2160);
 
 
 (lib.Mapadebits4 = function() {
-	this.initialize(ss["Inicio_atlas_1"]);
+	this.initialize(ss["Inicio_atlas_2"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits8 = function() {
-	this.initialize(ss["Inicio_atlas_2"]);
+	this.initialize(ss["Inicio_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits9 = function() {
-	this.initialize(ss["Inicio_atlas_1"]);
+	this.initialize(ss["Inicio_atlas_2"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
@@ -885,7 +885,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Carga la URL en una ventana nueva del navegador.
 		*/
-		window.open('inicio.html', '_self');
+		window.open('index.html', '_self');
 		});
 		
 		
@@ -998,9 +998,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Mapadebits11.png?1778552823628", id:"Mapadebits11"},
-		{src:"images/Inicio_atlas_1.png?1778552823177", id:"Inicio_atlas_1"},
-		{src:"images/Inicio_atlas_2.png?1778552823178", id:"Inicio_atlas_2"}
+		{src:"images/Mapadebits11.png?1778635756437", id:"Mapadebits11"},
+		{src:"images/Inicio_atlas_1.png?1778635756393", id:"Inicio_atlas_1"},
+		{src:"images/Inicio_atlas_2.png?1778635756394", id:"Inicio_atlas_2"}
 	],
 	preloads: []
 };

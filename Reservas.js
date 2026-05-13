@@ -3,12 +3,12 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Reservas_atlas_1", frames: [[0,540,491,76],[601,0,395,106],[0,372,372,106],[0,156,393,106],[0,264,384,106],[772,324,244,106],[386,324,384,106],[374,432,372,106],[395,216,393,106],[0,0,599,76],[0,78,599,76],[748,432,244,106],[601,108,395,106],[0,618,681,30]]},
-		{name:"Reservas_atlas_2", frames: [[1462,1748,489,129],[0,1602,1461,71],[0,1748,1460,71],[0,1675,1461,71],[0,1821,1460,71],[1082,770,599,290],[1082,1062,599,290],[1202,1894,599,76],[1202,1972,599,76],[0,1894,599,147],[601,1894,599,147],[1082,1354,599,219],[1082,0,768,768],[0,0,1080,1600]]},
+		{name:"Reservas_atlas_1", frames: [[0,0,1080,1600]]},
+		{name:"Reservas_atlas_2", frames: [[0,0,1080,1600]]},
 		{name:"Reservas_atlas_3", frames: [[0,0,1080,1600]]},
 		{name:"Reservas_atlas_4", frames: [[0,0,1080,1600]]},
-		{name:"Reservas_atlas_5", frames: [[0,0,1080,1600]]},
-		{name:"Reservas_atlas_6", frames: [[0,0,1080,1600]]}
+		{name:"Reservas_atlas_5", frames: [[1462,1748,489,129],[0,1602,1461,71],[0,1748,1460,71],[0,1675,1461,71],[0,1821,1460,71],[1082,770,599,290],[1082,1062,599,290],[1202,1894,599,76],[1202,1972,599,76],[0,1894,599,147],[601,1894,599,147],[1082,1354,599,219],[1082,0,768,768],[0,0,1080,1600]]},
+		{name:"Reservas_atlas_6", frames: [[0,540,491,76],[601,0,395,106],[0,372,372,106],[0,156,393,106],[0,264,384,106],[772,324,244,106],[386,324,384,106],[374,432,372,106],[395,216,393,106],[0,0,599,76],[0,78,599,76],[748,432,244,106],[601,108,395,106],[0,618,681,30]]}
 ];
 
 
@@ -32,231 +32,231 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_111 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_110 = function() {
-	this.initialize(ss["Reservas_atlas_2"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_109 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_108 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_107 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_106 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_105 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_104 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_103 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_102 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_135 = function() {
-	this.initialize(ss["Reservas_atlas_2"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_134 = function() {
-	this.initialize(ss["Reservas_atlas_2"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_133 = function() {
-	this.initialize(ss["Reservas_atlas_2"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_132 = function() {
-	this.initialize(ss["Reservas_atlas_2"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_101 = function() {
-	this.initialize(ss["Reservas_atlas_2"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_100 = function() {
-	this.initialize(ss["Reservas_atlas_2"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_99 = function() {
-	this.initialize(ss["Reservas_atlas_2"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_98 = function() {
-	this.initialize(ss["Reservas_atlas_2"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_97 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_96 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_95 = function() {
-	this.initialize(ss["Reservas_atlas_2"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_94 = function() {
-	this.initialize(ss["Reservas_atlas_2"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_93 = function() {
-	this.initialize(ss["Reservas_atlas_2"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_92 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_91 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_90 = function() {
-	this.initialize(ss["Reservas_atlas_1"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_89 = function() {
-	this.initialize(img.CachedBmp_89);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,3839,165);
-
-
-(lib.Gemini_Generated_Image_qyn9k0qyn9k0qyn9 = function() {
-	this.initialize(ss["Reservas_atlas_2"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Mapadebits2 = function() {
+(lib.CachedBmp_37 = function() {
 	this.initialize(ss["Reservas_atlas_6"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Mapadebits3 = function() {
+(lib.CachedBmp_36 = function() {
 	this.initialize(ss["Reservas_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Mapadebits4 = function() {
-	this.initialize(ss["Reservas_atlas_4"]);
+(lib.CachedBmp_35 = function() {
+	this.initialize(ss["Reservas_atlas_6"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_34 = function() {
+	this.initialize(ss["Reservas_atlas_6"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_33 = function() {
+	this.initialize(ss["Reservas_atlas_6"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_32 = function() {
+	this.initialize(ss["Reservas_atlas_6"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_31 = function() {
+	this.initialize(ss["Reservas_atlas_6"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_30 = function() {
+	this.initialize(ss["Reservas_atlas_6"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_29 = function() {
+	this.initialize(ss["Reservas_atlas_6"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_28 = function() {
+	this.initialize(ss["Reservas_atlas_6"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_27 = function() {
+	this.initialize(ss["Reservas_atlas_5"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_26 = function() {
+	this.initialize(ss["Reservas_atlas_5"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_25 = function() {
+	this.initialize(ss["Reservas_atlas_5"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_24 = function() {
+	this.initialize(ss["Reservas_atlas_5"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_23 = function() {
+	this.initialize(ss["Reservas_atlas_5"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_22 = function() {
+	this.initialize(ss["Reservas_atlas_5"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_21 = function() {
+	this.initialize(ss["Reservas_atlas_5"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_20 = function() {
+	this.initialize(ss["Reservas_atlas_5"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_19 = function() {
+	this.initialize(ss["Reservas_atlas_6"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_18 = function() {
+	this.initialize(ss["Reservas_atlas_6"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_17 = function() {
+	this.initialize(ss["Reservas_atlas_5"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_16 = function() {
+	this.initialize(ss["Reservas_atlas_5"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_15 = function() {
+	this.initialize(ss["Reservas_atlas_5"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_14 = function() {
+	this.initialize(ss["Reservas_atlas_6"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_13 = function() {
+	this.initialize(ss["Reservas_atlas_6"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_12 = function() {
+	this.initialize(ss["Reservas_atlas_6"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_11 = function() {
+	this.initialize(img.CachedBmp_11);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,3839,165);
+
+
+(lib.Gemini_Generated_Image_qyn9k0qyn9k0qyn9 = function() {
+	this.initialize(ss["Reservas_atlas_5"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Mapadebits2 = function() {
+	this.initialize(ss["Reservas_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Mapadebits5 = function() {
+(lib.Mapadebits3 = function() {
+	this.initialize(ss["Reservas_atlas_2"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Mapadebits4 = function() {
 	this.initialize(ss["Reservas_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.Mapadebits5 = function() {
+	this.initialize(ss["Reservas_atlas_4"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.Mapadebits6 = function() {
-	this.initialize(ss["Reservas_atlas_2"]);
+	this.initialize(ss["Reservas_atlas_5"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
@@ -274,10 +274,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_111();
+	this.instance = new lib.CachedBmp_37();
 	this.instance.setTransform(0,9.85,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_110();
+	this.instance_1 = new lib.CachedBmp_36();
 	this.instance_1.setTransform(1.4,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -300,7 +300,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_109();
+	this.instance = new lib.CachedBmp_35();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -323,7 +323,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_108();
+	this.instance = new lib.CachedBmp_34();
 	this.instance.setTransform(29.75,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -346,7 +346,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_107();
+	this.instance = new lib.CachedBmp_33();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -369,7 +369,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_106();
+	this.instance = new lib.CachedBmp_32();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -392,7 +392,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_105();
+	this.instance = new lib.CachedBmp_31();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -415,10 +415,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_135();
+	this.instance = new lib.CachedBmp_27();
 	this.instance.setTransform(-365.3,-35,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_134();
+	this.instance_1 = new lib.CachedBmp_26();
 	this.instance_1.setTransform(-365.3,-0.3,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -441,10 +441,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_133();
+	this.instance = new lib.CachedBmp_25();
 	this.instance.setTransform(-365.3,-35,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_132();
+	this.instance_1 = new lib.CachedBmp_24();
 	this.instance_1.setTransform(-365.3,-0.3,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -467,7 +467,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_100();
+	this.instance = new lib.CachedBmp_22();
 	this.instance.setTransform(-149.75,-72.6,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -490,7 +490,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_98();
+	this.instance = new lib.CachedBmp_20();
 	this.instance.setTransform(-149.65,-29.45,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -513,7 +513,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_96();
+	this.instance = new lib.CachedBmp_18();
 	this.instance.setTransform(-149.65,-18.9,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -536,7 +536,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_95();
+	this.instance = new lib.CachedBmp_17();
 	this.instance.setTransform(-149.65,-36.8,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -559,7 +559,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_93();
+	this.instance = new lib.CachedBmp_15();
 	this.instance.setTransform(-149.65,-54.7,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -667,7 +667,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_104();
+	this.instance = new lib.CachedBmp_30();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.instance_1 = new lib.servisios("synched",3,false);
@@ -725,7 +725,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_103();
+	this.instance = new lib.CachedBmp_29();
 	this.instance.setTransform(26.9,0,0.5,0.5);
 
 	this.instance_1 = new lib.proyeto("synched",3,false);
@@ -811,7 +811,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_92();
+	this.instance = new lib.CachedBmp_14();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.instance_1 = new lib.Símbolo2("synched",3,false);
@@ -869,7 +869,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_91();
+	this.instance = new lib.CachedBmp_13();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.instance_1 = new lib.contato("synched",3);
@@ -1276,7 +1276,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_102();
+	this.instance = new lib.CachedBmp_28();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.instance_1 = new lib.nojotro("synched",3,false);
@@ -1314,7 +1314,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Carga la URL en una ventana nueva del navegador.
 		*/
-		window.open('inicio.html', '_self');
+		window.open('index.html', '_self');
 		});
 		
 		
@@ -1429,10 +1429,10 @@ if (reversed == null) { reversed = false; }
 	this.instance_5.setTransform(277.3,637.8,1,1,0,0,0,150.3,222.8);
 	new cjs.ButtonHelper(this.instance_5, 0, 1, 1);
 
-	this.instance_6 = new lib.CachedBmp_90();
+	this.instance_6 = new lib.CachedBmp_12();
 	this.instance_6.setTransform(788,326.9,0.5,0.5);
 
-	this.instance_7 = new lib.CachedBmp_89();
+	this.instance_7 = new lib.CachedBmp_11();
 	this.instance_7.setTransform(2.45,235.6,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1}]}).wait(300));
@@ -1467,13 +1467,13 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_89.png?1778284839025", id:"CachedBmp_89"},
-		{src:"images/Reservas_atlas_1.png?1778284838965", id:"Reservas_atlas_1"},
-		{src:"images/Reservas_atlas_2.png?1778284838965", id:"Reservas_atlas_2"},
-		{src:"images/Reservas_atlas_3.png?1778284838965", id:"Reservas_atlas_3"},
-		{src:"images/Reservas_atlas_4.png?1778284838965", id:"Reservas_atlas_4"},
-		{src:"images/Reservas_atlas_5.png?1778284838965", id:"Reservas_atlas_5"},
-		{src:"images/Reservas_atlas_6.png?1778284838965", id:"Reservas_atlas_6"}
+		{src:"images/CachedBmp_11.png?1778635786072", id:"CachedBmp_11"},
+		{src:"images/Reservas_atlas_1.png?1778635786002", id:"Reservas_atlas_1"},
+		{src:"images/Reservas_atlas_2.png?1778635786002", id:"Reservas_atlas_2"},
+		{src:"images/Reservas_atlas_3.png?1778635786002", id:"Reservas_atlas_3"},
+		{src:"images/Reservas_atlas_4.png?1778635786002", id:"Reservas_atlas_4"},
+		{src:"images/Reservas_atlas_5.png?1778635786002", id:"Reservas_atlas_5"},
+		{src:"images/Reservas_atlas_6.png?1778635786003", id:"Reservas_atlas_6"}
 	],
 	preloads: []
 };
